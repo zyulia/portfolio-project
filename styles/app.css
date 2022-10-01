@@ -61,20 +61,27 @@ p {
     }
     h2{
         font-size: 44px;
+        text-align: center;
     }
     p {
-        font-size: 14px}
+        font-size: 14px;
+        text-align: center;
+    }
     .hero h1{
         font-size: 44px;
+        text-align: center;
     }
     .hero{
         padding: 80px 20px;
+        text-align: center;
     }
     .hero h2{
         font-size: 20px;
+        text-align: center;
     }
     .hero p{
         font-size: 24px;
+        text-align: center;
     }
 }
 
