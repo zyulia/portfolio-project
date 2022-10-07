@@ -83,11 +83,11 @@ p {
         font-size: 24px;
         text-align: center;
     }
-    .about-section{
+    .content-container{
         
         margin: 0;
     }
-    .about-section-content{
+    .content{
         padding: 30px;
         text-align: center;
     }
@@ -96,21 +96,30 @@ p {
         margin: 0 auto;
     }
 }
-.about-section{
+.content-container{
     padding: 160px 20px;
-    
+    font-family: 'Poppins', sans-serif;
 }
 
-.about-section h1{
+.content-container h1{
     font-size: 40px;
     line-height: 1.5;
 }
-.about-section h2{
+.content-container h2{
     font-size: 26px;
     line-height: 1.5; 
 }
-.about-section p{
+.content-container p{
     font-size: 18px;
     line-height: 2; 
 }
-
+.content h3{
+    font-size: 28px;
+    font-weight: bold;
+    line-height:1.5;
+    margin: 20px 0 0;
+}
+.content h1{
+    font-size: 54px;
+    font-weight:900;
+     }
