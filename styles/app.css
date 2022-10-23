@@ -40,6 +40,10 @@ p {
     font-family: 'Poppins', sans-serif;
     line-height: 30px;
 }
+h4{
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
 .btn-branding-outline{
     background: white;
     border-radius: 4px;
@@ -95,6 +99,13 @@ p {
         display: block;
         margin: 0 auto;
     }
+    footer .contact-box{
+        padding: 30px;
+    }
+    h4{
+        font-size: 26px;
+    }
+
 }
 .content-container{
     padding: 160px 20px;
@@ -149,3 +160,39 @@ nav a{
 nav a:hover, nav li.active a {
 color: #6C63FF;
 }
+footer .contact-box{
+    background-color: #F9F7FE;
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+footer .email-link {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+footer{
+    margin: 60px 0;
+}
+footer .social-links a{
+    margin: 0 20px;
+    color: #6C63FF;
+    background-color: #F9F7FE;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+footer .email-link:hover{
+    color:#6C63FF;
+    }
+    footer .social-links a:hover{
+        color:white;
+        background-color: #6C63FF;
+    }
+    footer .contact-box p{
+        margin: 0;
+    }
