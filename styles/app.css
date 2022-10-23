@@ -123,3 +123,29 @@ p {
     font-size: 54px;
     font-weight:900;
      }
+.logo{
+    max-width: 150px;
+     }
+nav li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+    line-height: 42px; 
+    margin-left: 15px;
+    
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+nav a:hover, nav li.active a {
+color: #6C63FF;
+}
