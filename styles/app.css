@@ -19,7 +19,11 @@
     text-align: center;
     background: #F9F7FE;
     margin-top: 0;
-    padding: 160px 20px;
+    padding: 80px 20px;
+}
+.about-projects p{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 .btn-branding{
     background: #6C63FF;
@@ -108,7 +112,7 @@ h4{
 
 }
 .content-container{
-    padding: 160px 20px;
+    padding: 60px 20px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -131,7 +135,7 @@ h4{
     margin: 20px 0 0;
 }
 .content h1{
-    font-size: 54px;
+    font-size: 50px;
     font-weight:900;
      }
 .logo{
